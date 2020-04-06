@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="rootpane4" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1550.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.sample4">
+   <children>
+      <AnchorPane prefHeight="900.0" prefWidth="1550.0">
+         <children>
+            <ImageView fitHeight="900.0" fitWidth="1550.0" pickOnBounds="true">
+               <image>
+                  <Image url="@1115247.jpg" />
+               </image>
+               <effect>
+                  <GaussianBlur radius="1.8" />
+               </effect>
+            </ImageView>
+            <AnchorPane layoutX="96.0" layoutY="225.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="438.0" prefWidth="322.0">
+               <children>
+                  <ImageView fitHeight="438.0" fitWidth="332.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@uefa-europa-league-2016-logo-BDCC44BCBF-seeklogo.com.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust contrast="0.09" hue="-0.79" saturation="-0.1" />
+                     </effect>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <TabPane layoutX="577.0" layoutY="130.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="636.0" prefWidth="798.0" style="-fx-border-color: white; -fx-border-width: 5; -fx-border-radius: 10;" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="Day 1">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TextField alignment="TOP_LEFT" editable="false" layoutX="36.0" layoutY="37.0" prefHeight="506.0" prefWidth="702.0" style="-fx-background-color: transparent;" text="Team 1                             Team 2                      Winner">
+                                 <effect>
+                                    <ColorAdjust brightness="1.0" contrast="-1.0" hue="-1.0" saturation="-1.0" />
+                                 </effect>
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                <Tab text="Day 2">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TextField alignment="TOP_LEFT" editable="false" layoutX="48.0" layoutY="41.0" prefHeight="509.0" prefWidth="674.0" style="-fx-background-color: transparent;" text="  Team 1                         Team 2                      Winner">
+                                 <effect>
+                                    <ColorAdjust brightness="1.0" contrast="1.0" hue="1.0" saturation="1.0" />
+                                 </effect>
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+              </tabs>
+            </TabPane>
+            <Button fx:id="button4" layoutX="1404.0" layoutY="36.0" mnemonicParsing="false" onMouseClicked="#clicked" prefHeight="54.0" prefWidth="83.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-radius: 20; -fx-font-size: 20; -fx-border-width: 2;" text="Exit">
+               <effect>
+                  <ColorAdjust brightness="1.0" contrast="-1.0" hue="-1.0" saturation="-1.0" />
+               </effect>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<StackPane fx:id="rootpane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1550.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.sample">
+   <children>
+      <AnchorPane prefHeight="900.0" prefWidth="1550.0">
+         <children>
+            <ImageView fitHeight="900.0" fitWidth="1550.0" pickOnBounds="true">
+               <image>
+                  <Image url="@the-ball-488714__480.jpg" />
+               </image>
+               <effect>
+                  <GaussianBlur radius="14.8" />
+               </effect>
+            </ImageView>
+            <Button fx:id="button2" layoutX="1374.0" layoutY="63.0" mnemonicParsing="false" onMouseClicked="#onclicked" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 3; -fx-border-radius: 20; -fx-font-size: 20;" text="EXIT" textFill="WHITE" AnchorPane.rightAnchor="76.40000000000009">
+               <effect>
+                  <ColorAdjust brightness="-1.0" contrast="-1.0" hue="-1.0" saturation="-1.0" />
+               </effect>
+            </Button>
+            <TextField fx:id="textusername" layoutX="602.0" layoutY="445.0" prefHeight="0.0" prefWidth="346.0" promptText="Username" style="-fx-background-color: transparent; -fx-font-size: 30;">
+               <effect>
+                  <ColorAdjust brightness="-1.0" contrast="0.49" hue="-0.6" saturation="1.0" />
+               </effect>
+            </TextField>
+            <PasswordField fx:id="textpassword" cache="true" layoutX="602.0" layoutY="533.0" promptText="Password" style="-fx-background-color: transparent; -fx-font-size: 30;">
+               <effect>
+                  <ColorAdjust brightness="-1.0" contrast="-0.69" hue="-0.59" saturation="1.0" />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="N_RESIZE" />
+               </cursor>
+            </PasswordField>
+            <Button layoutX="816.0" layoutY="624.0" mnemonicParsing="false" onMouseClicked="#onloggedin" prefHeight="40.0" prefWidth="116.0" style="-fx-background-color: transparent; -fx-font-size: 20; -fx-text-fill: white; -fx-border-color: white; -fx-border-radius: 20;" text="Log In" textFill="#3baa51" />
+            <Circle layoutX="583.0" layoutY="480.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle layoutX="583.0" layoutY="570.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

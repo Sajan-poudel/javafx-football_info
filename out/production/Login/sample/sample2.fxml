@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane fx:id="rootpane1" prefHeight="900.0" prefWidth="1550.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.sample2">
+   <children>
+      <AnchorPane prefHeight="900.0" prefWidth="1550.0">
+         <children>
+            <ImageView fitHeight="900.0" fitWidth="1550.0" pickOnBounds="true">
+               <image>
+                  <Image url="@wp2160656.jpg" />
+               </image>
+               <effect>
+                  <GaussianBlur radius="12.4" />
+               </effect>
+            </ImageView>
+            <AnchorPane layoutX="653.0" layoutY="317.0" onMouseClicked="#uefaclicked" prefHeight="289.0" prefWidth="244.0">
+               <children>
+                  <ImageView fitHeight="289.0" fitWidth="244.0" layoutX="26.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@uefa-europa-league-2016-logo-BDCC44BCBF-seeklogo.com.png" />
+                     </image>
+                     <effect>
+                        <DropShadow color="#cdb14e" height="30.53" radius="23.105" width="63.89" />
+                     </effect>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="213.0" layoutY="341.0" onMouseClicked="#adminclicked" prefHeight="249.0" prefWidth="244.0">
+               <children>
+                  <ImageView fitHeight="244.0" fitWidth="226.0" layoutX="-19.0" layoutY="-24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@microsoft-admin.png" />
+                     </image>
+                     <effect>
+                        <DropShadow height="7.15" radius="8.325" width="28.15" />
+                     </effect>
+                  </ImageView>
+                  <Text layoutX="57.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADMIN " wrappingWidth="130.38671875">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="1067.0" layoutY="338.0" onMouseClicked="#championclicked" prefHeight="299.0" prefWidth="280.0">
+               <children>
+                  <ImageView fitHeight="299.0" fitWidth="280.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@UEFA_Champions_League-logo-DD9AE0500D-seeklogo.com.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="-1.0" contrast="-0.44" saturation="1.0" />
+                     </effect>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Button fx:id="button2" layoutX="1365.0" layoutY="43.0" mnemonicParsing="false" onMouseClicked="#clicked" style="-fx-border-color: white; -fx-font-size: 40; -fx-border-radius: 200; -fx-text-fill: white; -fx-background-color: transparent;" text="EXIT" AnchorPane.rightAnchor="53.40000000000009" AnchorPane.topAnchor="43.0">
+               <effect>
+                  <DropShadow height="82.96" radius="25.49" spread="0.12" />
+               </effect>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

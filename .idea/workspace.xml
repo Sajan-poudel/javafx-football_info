@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1YTy6tN5C398CFp2NbRwbHw0SZr" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project/java final - Copy" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.14765625" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="sample" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Login\src\sample" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="Login" />
+      <option name="VM_PARAMETERS" value="--module-path $PATH_TO_FX$ --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1302000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="311" y="59" width="800" height="684" key="#Configure_Path_Variables" timestamp="1586088041580">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="311" y="59" width="800" height="684" key="#Configure_Path_Variables/67.27.1299.741@67.27.1299.741" timestamp="1586088041580" />
+    <state x="256" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586088004920">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="223" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1583151444709" />
+    <state x="256" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1586088004920" />
+    <state x="490" y="197" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582984064340">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="197" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1582984064340" />
+    <state x="530" y="54" key="#com.intellij.ide.util.MemberChooser" timestamp="1586022407336">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="530" y="54" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586022407336" />
+    <state x="436" y="100" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583002522903">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="436" y="100" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1583002522903" />
+    <state x="67" y="55" width="924" height="691" key="DBNavigator.ProjectSettingsDialog" timestamp="1586104103408">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="67" y="55" width="924" height="691" key="DBNavigator.ProjectSettingsDialog/67.27.1299.741@67.27.1299.741" timestamp="1586104103408" />
+    <state x="432" y="111" width="735" height="520" key="FileChooserDialogImpl" timestamp="1586088881409">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="432" y="93" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583259248302" />
+    <state x="432" y="111" width="735" height="520" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1586088881409" />
+    <state width="877" height="2" key="GridCell.Tab.0.bottom" timestamp="1586105429774">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1481" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586028371748" />
+    <state width="877" height="2" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1586105429774" />
+    <state width="877" height="2" key="GridCell.Tab.0.center" timestamp="1586105429772">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1481" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586028371748" />
+    <state width="877" height="2" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1586105429772" />
+    <state width="877" height="2" key="GridCell.Tab.0.left" timestamp="1586105429772">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1481" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586028371748" />
+    <state width="877" height="2" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1586105429772" />
+    <state width="877" height="2" key="GridCell.Tab.0.right" timestamp="1586105429773">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1481" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586028371748" />
+    <state width="877" height="2" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1586105429773" />
+    <state x="169" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1586089454986">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583151518792" />
+    <state x="169" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1586089454986" />
+    <state x="406" y="202" key="com.intellij.ide.util.TipDialog" timestamp="1586097611076">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="401" y="195" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586028232577" />
+    <state x="406" y="202" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1586097611076" />
+    <state x="436" y="114" width="663" height="608" key="extract.method.dialog" timestamp="1582997426116">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="436" y="114" width="663" height="608" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1582997426116" />
+    <state width="752" height="502" key="javadoc.popup" timestamp="1585669593118">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="628" height="164" key="javadoc.popup.new" timestamp="1585669683663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="628" height="164" key="javadoc.popup.new/0.0.1536.824@0.0.1536.824" timestamp="1585669683663" />
+    <state width="752" height="502" key="javadoc.popup/0.0.1536.824@0.0.1536.824" timestamp="1585669593118" />
+    <state x="39" y="88" key="new project wizard" timestamp="1583151423085">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="39" y="88" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1583151423085" />
+  </component>
+</project>
