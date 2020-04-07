@@ -12,19 +12,19 @@
 
 <StackPane fx:id="rootpane0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1550.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.sample0">
    <children>
-      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="250.0" prefWidth="600.0">
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="250.0" prefWidth="600.0" style="-fx-border-color: white;">
          <children>
-            <ImageView fitHeight="250.0" fitWidth="600.0" pickOnBounds="true">
+            <ImageView fitHeight="250.0" fitWidth="600.0" layoutX="4.0" layoutY="5.0" pickOnBounds="true">
                <image>
                   <Image url="@war.jpg" />
                </image>
             </ImageView>
-            <Button layoutX="489.0" layoutY="192.0" mnemonicParsing="false" onMouseClicked="#onwarningclicked" prefHeight="26.0" prefWidth="56.0" style="-fx-background-radius: 20;" text="OK" textAlignment="CENTER">
+            <Button layoutX="489.0" layoutY="192.0" mnemonicParsing="false" onMouseClicked="#onokclicked" prefHeight="26.0" prefWidth="56.0" style="-fx-background-radius: 20;" text="OK" textAlignment="CENTER">
                <effect>
                   <InnerShadow color="#3817d4f2" radius="13.575" width="35.3" />
                </effect>
             </Button>
-            <TextField editable="false" layoutX="36.0" layoutY="79.0" prefHeight="39.0" prefWidth="539.0" promptText="show the warnings" style="-fx-background-color: transparent; -fx-border-color: white;">
+            <TextField editable="false" layoutX="36.0" layoutY="79.0" prefHeight="39.0" prefWidth="539.0" promptText="show the warnings" style="-fx-background-color: transparent; -fx-border-color: white;" text="Do you want to continue updating ?">
                <font>
                   <Font size="24.0" />
                </font>
@@ -32,6 +32,11 @@
                   <ColorAdjust brightness="1.0" />
                </effect>
             </TextField>
+            <Button layoutX="396.0" layoutY="192.0" mnemonicParsing="false" onMouseClicked="#oncancelclicked" prefHeight="26.0" prefWidth="56.0" style="-fx-background-radius: 20;" text="Cancel" textAlignment="CENTER">
+               <effect>
+                  <InnerShadow color="#3817d4f2" radius="13.575" width="35.3" />
+               </effect>
+            </Button>
          </children>
       </AnchorPane>
    </children>

@@ -15,10 +15,16 @@ public class sample0 implements Initializable {
     @FXML
     private StackPane rootpane0;
     @FXML
-    public void onwarningclicked(MouseEvent event)throws IOException {
+    public void onokclicked(MouseEvent event)throws IOException {
         StackPane pane = FXMLLoader.load(getClass().getResource("sample5.fxml"));
         rootpane0.getChildren().setAll(pane);
 
+
+    }
+    @FXML
+    public void oncancelclicked(MouseEvent event) throws IOException {
+        StackPane pane = FXMLLoader.load(getClass().getResource("sample2.fxml"));
+        rootpane0.getChildren().setAll(pane);
     }
 
 

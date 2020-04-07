@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.scene.control.TabPane;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.StackPane;
 
@@ -13,6 +14,7 @@ import java.util.ResourceBundle;
 
 public class sample3 implements Initializable {
 
+    public TabPane tabpan;
     //Stage stage;
     @FXML
     private Button button2;
