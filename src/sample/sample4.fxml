@@ -4,7 +4,6 @@
 <?import javafx.scene.effect.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
 
 <StackPane fx:id="rootpane4" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1550.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.sample4">
    <children>
@@ -19,42 +18,7 @@
                </effect>
             </ImageView>
             <AnchorPane layoutX="96.0" layoutY="225.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="438.0" prefWidth="322.0" />
-            <TabPane layoutX="577.0" layoutY="130.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="636.0" prefWidth="798.0" style="-fx-border-color: white; -fx-border-width: 5; -fx-border-radius: 10;" tabClosingPolicy="UNAVAILABLE">
-              <tabs>
-                <Tab text="Day 1">
-                  <content>
-                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                           <children>
-                              <TextField alignment="TOP_LEFT" editable="false" layoutX="36.0" layoutY="37.0" prefHeight="506.0" prefWidth="702.0" style="-fx-background-color: transparent;" text="Team 1                             Team 2                      Winner">
-                                 <effect>
-                                    <ColorAdjust brightness="1.0" contrast="-1.0" hue="-1.0" saturation="-1.0" />
-                                 </effect>
-                                 <font>
-                                    <Font size="24.0" />
-                                 </font>
-                              </TextField>
-                           </children>
-                        </AnchorPane>
-                  </content>
-                </Tab>
-                <Tab text="Day 2">
-                  <content>
-                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                           <children>
-                              <TextField alignment="TOP_LEFT" editable="false" layoutX="48.0" layoutY="41.0" prefHeight="509.0" prefWidth="674.0" style="-fx-background-color: transparent;" text="  Team 1                         Team 2                      Winner">
-                                 <effect>
-                                    <ColorAdjust brightness="1.0" contrast="1.0" hue="1.0" saturation="1.0" />
-                                 </effect>
-                                 <font>
-                                    <Font size="24.0" />
-                                 </font>
-                              </TextField>
-                           </children>
-                        </AnchorPane>
-                  </content>
-                </Tab>
-              </tabs>
-            </TabPane>
+            <TabPane fx:id="tabpan" layoutX="577.0" layoutY="130.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="636.0" prefWidth="798.0" style="-fx-border-color: white; -fx-border-width: 5; -fx-border-radius: 10;" tabClosingPolicy="UNAVAILABLE" />
             <Button fx:id="button4" layoutX="1404.0" layoutY="36.0" mnemonicParsing="false" onMouseClicked="#clicked" prefHeight="54.0" prefWidth="83.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-radius: 20; -fx-font-size: 20; -fx-border-width: 2;" text="Exit">
                <effect>
                   <ColorAdjust brightness="1.0" contrast="-1.0" hue="-1.0" saturation="-1.0" />

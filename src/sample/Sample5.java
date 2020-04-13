@@ -158,6 +158,7 @@ public class Sample5 implements Initializable {
     }
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        Sample5();
     }
 
 
@@ -177,7 +178,7 @@ public class Sample5 implements Initializable {
     }
 
     public void setChampionSelected(ActionEvent actionEvent) {
-        league = "europa";
+        league = "champions";
         selectleague.setText("CHampions league");
         System.out.println("champions league is selected");
     }
