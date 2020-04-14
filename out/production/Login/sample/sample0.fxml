@@ -10,9 +10,9 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
 
-<StackPane fx:id="rootpane0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1550.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.sample0">
+<StackPane fx:id="rootpane0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1250.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.sample0">
    <children>
-      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="250.0" prefWidth="600.0" style="-fx-border-color: white;">
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="258.0" prefWidth="587.0" style="-fx-border-color: white;">
          <children>
             <ImageView fitHeight="250.0" fitWidth="600.0" layoutX="4.0" layoutY="5.0" pickOnBounds="true">
                <image>
